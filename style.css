@@ -1012,10 +1012,11 @@ h2#tam{
 	width: 100%;
 	height: 100%;
 	transition: transform 0.5s ease-out;
+	transform-origin: top-left;
 }
 
 .pcont .descrip{
-	position: absolute;
+	position: relative;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -1023,8 +1024,8 @@ h2#tam{
 	width: 100%;
 	height: 100%;
 	transition: background-color 0.25s ease-out, color 0.4s ease-out;
-	background-color: rgba(86,90,84,1);
-	color: rgba(129,182,54,1);
+	background-color: rgba(86,90,84,0);
+	color: rgba(129,182,54,0);
 	z-index: 5;
 }
 
